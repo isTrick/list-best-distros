@@ -1,0 +1,57 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 1rem;
+    display: table;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+  }
+  
+  /* Header styling */
+  thead {
+    background-color: #FFA07A;
+  }
+  
+  thead th {
+    font-weight: bold;
+    color: white;
+    padding: 0.5rem;
+    border: none;
+  }
+  
+  /* Even row styling */
+  tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  /* Odd row styling */
+  tbody tr:nth-child(odd) {
+    background-color: #ffffff;
+  }
+  
+  /* Hover effect */
+  table tbody tr:hover,
+  table tbody tr:focus {
+    background-color: #7aa8ff;
+    cursor: pointer;
+  }
+  
+  /* Table cell borders */
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  /* Add shadows on hover */
+  table tbody tr:hover {
+    box-shadow: 0px 0px 20px #7a83ff;
+  }
+  
+  /* Add transition effects */
+  table tbody tr {
+    transition: background-color 0.3s ease;
+    -webkit-transition: background-color 0.3s ease;
+  }
+  
